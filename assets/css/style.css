@@ -36,7 +36,7 @@ body {
 .side-bar {
   background-color: black;
   justify-content: space-between;
-  width: 35%;
+  width: 10%;
 }
 
 .top-simbol {
@@ -172,10 +172,45 @@ body {
   font-size: 0.7rem;
 }
 
+/* FINE SIDE-BAR */
+
+.spotify-image{
+    background-color: rgb(20,25,34);
+    width: 90%;
+    overflow: auto;
+}
+
+.button-opacity{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+}
+
+.button-upgrade{
+   color: white;
+   border: 1px solid white;
+   padding: 0.8rem 2rem;
+   background-color: rgb(20,25,34);
+   border-radius: 30px;
+   font-size: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 426px) {
   #logo-small {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 426px) {
@@ -218,7 +253,7 @@ body {
   }
 
   .top-simbol img {
-    width: 15%;
+    width: 10%;
   }
 
   .top-simbol {
@@ -226,7 +261,7 @@ body {
   }
 
   .side-bar {
-    width: 80%;
+    width: 30%;
     padding: 1rem;
   }
 
@@ -246,7 +281,7 @@ body {
   }
 
   #logo-big {
-    width: 90%;
+    width: 70%;
   }
 
   .top-simbol h3 {
@@ -256,9 +291,9 @@ body {
   .fa-plus {
     background-color: gray;
     color: black;
-    font-size: 2rem;
-    padding: 5px;
-  }
+    font-size: 1.3rem;
+    padding: 4px;
+}
 
   .new-playlist {
     padding: 5px 3px;
@@ -266,21 +301,22 @@ body {
 
   .new-playlist span {
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 1rem;
     color: rgb(99, 97, 99);
-  }
+}
 
   .name-playlist {
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
     color: rgb(99, 97, 99);
-  }
+    font-size: 0.8rem;
+}
 
   .bottom-simbol {
     align-items: start;
   }
 
   .bottom-simbol img {
-    width: 15%;
+    width: 10%;
   }
 
   .middle-line {
@@ -292,6 +328,12 @@ body {
   .bottom-simbol span {
     padding: 0 10px;
   }
+
+  #jhon-doe{
+    color: white;
+  }
+
+  /* FINE SIDE-BAR */
 }
 
 @media screen and (min-width: 769px) {
@@ -331,7 +373,7 @@ body {
   }
 
   .side-bar {
-    width: 25%;
+    width: 15%;
     padding: 1rem;
   }
 
@@ -367,3 +409,13 @@ body {
   .top-simbol h3 {
     padding: 10px 0;
   }
+  #jhon-doe{
+    color: white;
+  }
+
+  .bottom-simbol span {
+    padding: 0 10px;
+  }
+
+  /* FINE SIDE-BAR */
+}
