@@ -165,11 +165,17 @@ body {
   display: flex;
   align-items: center;
   flex-basis: 25%;
+  justify-content: flex-end;
+  padding: 0 10px;
 }
 
 .right-part i {
   padding: 0 0.3rem;
   font-size: 0.7rem;
+}
+
+.volume-row{
+    width: 35%;
 }
 
 /* FINE SIDE-BAR */
@@ -244,7 +250,8 @@ body {
 
   .bottom-simbol div {
     padding-bottom: 1rem;
-  }
+    justify-content: center;
+}
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
