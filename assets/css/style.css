@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.clearfix-reverse{
+    display: flex;
+    flex-direction: column;
+}
+
+.clearfix{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-part{
+    height: 100%;
+}
+
+.side-bar{
+    background-color: black;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.top-simbol{
+    padding-top: 3px;
+    align-items: center;
+}
+
+.top-simbol img{
+    width: 60%;
+    padding: 5px 0;
+}
+
+.bottom-simbol{
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.bottom-simbol img{
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.img-logo{
+    background-color: gray;
+    border-radius: 20px;
+}
+
+/* PARTE INFERIORE */
+
+.bottom-part{
+    background-color: rgb(51, 50, 50);
+    padding: 15px 5px;
+    align-items: center;
+    /* position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%; */
+}
+
+.left-part{
+    align-items: center;
+    flex-basis: 25%;
+}
+
+.left-part img{
+    width: 30px;
+    height: 30px;
+}
+
+.info-song-informations{
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.folder-heart{
+    color: white;
+}
+
+.fa-heart{
+    margin-bottom: 0.3rem;
+}
+
+.center-part{
+    color: white;
+    flex-basis: 45%;
+}
+
+.command-container{
+    text-align: center;
+}
+
+.fa-circle-play{
+    font-size: 1.5rem
+}
+
+.center-part i{
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.min-bar-row{
+    padding: 10px 0;
+    align-items: center;
+}
+
+.min-bar-row span{
+    font-size: 0.7rem;
+}
+
+.min-bar{
+    width: 100%;
+    border: 2px solid gray;
+    margin: 0 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.min-bar-white{
+    position: absolute;
+    width: 30%;
+    border: 2px solid white;
+    left: 0;
+    top: -2px;
+}
+
+.right-part{
+    color: white ;
+    display: flex;
+    align-items: center;
+    flex-basis: 25%;
+}
+
+.right-part i{
+    padding: 0 0.3rem;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width:426px){ 
+    #logo-big{
+        display: none;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px){ 
+    #logo-small{
+        display: none;
+    }
+}
