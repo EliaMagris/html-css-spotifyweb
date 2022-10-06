@@ -37,6 +37,7 @@ body {
   background-color: black;
   justify-content: space-between;
   width: 10%;
+  height: calc(100% - 91px);
 }
 
 .top-simbol {
@@ -87,10 +88,9 @@ body {
   background-color: rgb(51, 50, 50);
   padding: 15px 5px;
   align-items: center;
-  /* position: fixed;
-    z-index: 1;
+  position: fixed;
     bottom: 0;
-    width: 100%; */
+    width: 100%;
 }
 
 .left-part {
@@ -184,6 +184,8 @@ body {
     background-color: rgb(20,25,34);
     width: 90%;
     overflow: auto;
+    height: calc(100% - 91px);
+    color: white;
 }
 
 .button-opacity{
@@ -223,6 +225,53 @@ body {
 }
 
 /* NAV BAR COMPLETATA */
+
+.albums{
+  flex-wrap: wrap;
+}
+
+.album{
+  flex-basis: calc(100% / 2);
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.album div{
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+
+.album span{
+  font-size: 0.9rem;
+  color: rgb(99, 97, 99);
+}
+
+.album img{
+  width: 100%;
+}
+
+.daily-mix{
+  padding: 1rem 0;
+}
+
+.info-playlist{
+  padding: 1rem;
+}
+
+.info-playlist h2{
+  font-size: 1.3rem;
+
+}
+
+.info-playlist p{
+  color: rgb(99, 97, 99);
+  padding-top: 1rem ;
+  font-size: 0.9rem;
+}
+
+.img-round img{
+  border-radius: 50%;
+}
 
 
 
