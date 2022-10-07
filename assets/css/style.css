@@ -40,6 +40,18 @@ body {
   height: calc(100% - 91px);
 }
 
+/* hover selector white */
+
+.hover-white:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hover-yellowgreen:hover {
+  color: yellowgreen;
+  cursor: pointer;
+}
+
 .top-simbol {
   padding-top: 3px;
   color: white;
@@ -157,12 +169,12 @@ body {
   position: absolute;
   width: 30%;
   border: 2px solid white;
-  left: 0;
+  left: -1px;
   top: -2px;
 }
 
 .min-bar-white:hover::before {
-  content: '';
+  content: "";
   height: 15px;
   width: 15px;
   border-radius: 50%;
@@ -207,8 +219,8 @@ body {
 }
 
 .spotify-image {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* ELIMINAZIONE SCROLL BAR */
@@ -225,7 +237,7 @@ body {
 
 /* button upgrade hover */
 
-.button-upgrade{
+.button-upgrade {
   color: white;
   border: 1px solid white;
   padding: 0.8rem 2rem;
@@ -235,16 +247,16 @@ body {
   cursor: pointer;
 }
 
-.button-upgrade:active{
+.button-upgrade:active {
   transform: translate(0.5rem);
 }
 
 .bigger-button {
   border-radius: 2px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.bigger-button:hover{
+.bigger-button:hover {
   transform: scale(1.1);
   padding: 1rem 1rem;
   box-shadow: (3px 5px 5px yellowgreen);
